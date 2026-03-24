@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/scripts/ensure-android-emulator.sh",
+            "timeout": 120,
+            "statusMessage": "Checking Android emulator..."
+          }
+        ]
+      }
+    ]
+  }
+}
