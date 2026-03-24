@@ -4,7 +4,7 @@
 
 ADB="/c/Users/small/AppData/Local/Android/Sdk/platform-tools/adb"
 EMULATOR="/c/Users/small/AppData/Local/Android/Sdk/emulator/emulator"
-AVD="Medium_Phone"
+AVD="Medium_Tablet"
 
 CMD=$(node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{process.stdout.write(JSON.parse(d).tool_input.command||'')}catch(e){}})")
 
